@@ -1,0 +1,57 @@
+
+    h1{
+        font-style: italic;
+        font-size: 35pt;
+        font-weight: bold;
+        background-color: rgb(247, 211, 52);
+        color: rgb(5, 5, 173);
+    }
+        
+    h2{
+        background-color: rgb(248, 203, 246);
+        color: rgb(9, 9, 245);
+    }
+    
+    /* Hobby */
+    h3{
+        font-style: italic;
+        font-weight: bold;
+        background-color:rgb(247, 211, 52);
+        color:  rgb(5, 5, 173);
+    }
+
+        
+    ul{
+        font-style: Times;
+        font-size: 14pt;
+        font-weight: bold; 
+    }
+    
+    div{
+        text-align: center;
+    }
+    
+    p{
+        font-weight: bold;
+        font-size: 15pt;
+        background-color:rgb(247, 211, 52);
+        color:  rgb(5, 5, 173);
+    }
+
+    img{
+        width: 22%;
+        height: 20%;
+        border-radius: 5%;
+    }
+    
+    .left_page{
+        text-align: left;
+    }
+
+    #Myself_2220{
+        width: 20%;
+        
+    }
+   .warissara{
+    color: blue;
+   }

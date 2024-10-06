@@ -1,0 +1,81 @@
+/* ตกแต่งส่วน Head */
+h1 {
+    color: #072ac8; 
+    text-align: center; 
+    font-family: 'Merriweather', serif;
+    padding: 20px 20px;
+    margin: 10px 5%;
+    background-color: #fffde5;
+    font-size: 65px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* ตกแต่งกล่องข้อความ */
+textarea {
+    width: 35%;
+    height: 50%;
+    font-size: 20px;
+    position: relative;
+    margin: 10px 10%;
+    padding: 10px;
+    border: 3px solid #072ac8;
+    color: black;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.584);
+    border-radius: 5px;
+}
+
+/* ตกแต่งปุ่ม */
+button {
+    background-color: #fcf300; 
+    color: black;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* เมื่อเลื่อนเม้าส์มาที่ปุ่ม */
+button:hover {
+    background-color: #FFC600;
+}
+
+/* ตกแต่งส่วนที่จะแสดงข้อความ (topic และ reply) */
+#topic, #reply1, #reply2 {
+    border: 1px solid #072ac8;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.584);
+    padding: 10px;
+    margin: 10px 20%;
+    background-color: #ffffff;
+    font-size: 25px;
+    min-height: 50px;
+    border-radius: 5px;
+    word-wrap: break-word; 
+    white-space: pre-wrap;
+}
+
+/* จัดให้ตัวหนังสืออยู่ในกรอบ */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #A2D6F9; /* สีพื้นหลัง */
+    margin: 0;
+    padding: 20px;
+    
+    /*-------------------------------------*/
+    background-image: url('1123.png');
+    background-position: left; /* ตำแหน่งของรูปภาพ */
+    background-repeat: no-repeat; /* ห้ามซ้ำ */
+    background-size: 18%;
+
+}
+
+/* เอาไว้ตกแต่งเส้นคั่น */
+hr {
+    border: none; /* ไม่มีเส้นขอบ */
+    height: 5px; /* ความหนาของเส้น */
+    background: linear-gradient(to right, #fcf300, #ff7b00, #fcf300); /* ไล่สีจากเหลืองไปชมพู */
+    margin: 35px 20%;
+}

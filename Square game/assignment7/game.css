@@ -1,0 +1,99 @@
+body {
+    background-color: #f1dd86; 
+}
+#container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fffcd9;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 10px; 
+    background-color: #fff; 
+    overflow: hidden; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+/* การตั้งค่ากล่อง */
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+    border-radius: 5px; /* เพิ่มขอบโค้งเล็กๆ ให้กล่อง */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* กล่องสีต่างๆ */
+.maroon {
+    background-color: maroon;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+
+.square:hover {
+    transform: scale(1.2); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+#clock {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #eaeaea;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    min-width: 100px;
+}
+
+
+button#start {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button#start:hover {
+    background-color: #0056b3; 
+}
+
+fieldset {
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+input, select {
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
